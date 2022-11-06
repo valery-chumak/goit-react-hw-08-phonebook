@@ -1,0 +1,7 @@
+.Container {
+  width: 100%;
+  height: 100vh;
+  padding-top: 150px;
+  margin: auto;
+  background-image: radial-gradient(circle, white, rgba(6, 146, 6, 0.663));
+}

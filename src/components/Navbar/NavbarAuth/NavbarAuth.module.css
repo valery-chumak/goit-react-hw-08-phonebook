@@ -1,0 +1,8 @@
+.AuthContainer {
+  display: flex;
+}
+.dash {
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 600;
+}

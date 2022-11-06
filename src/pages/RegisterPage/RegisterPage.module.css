@@ -1,0 +1,8 @@
+.Container {
+  width: 100%;
+  height: 100vh;
+  overscroll-behavior: contain;
+  padding-top: 150px;
+  margin: auto;
+  background-image: radial-gradient(circle, white, rgb(243, 176, 52));
+}
