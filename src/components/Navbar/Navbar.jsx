@@ -10,7 +10,7 @@ export default function Navbar() {
   const isLogin = useAuth();
   return (
     <NavList>
-      <StyledLink to="/">
+      <StyledLink to="/" end>
         <IconContext.Provider value={{ size: '40px' }}>
           <div>
             <FaPhoneSquare />
