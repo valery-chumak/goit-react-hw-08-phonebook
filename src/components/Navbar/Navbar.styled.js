@@ -15,9 +15,13 @@ export const StyledLink = styled(NavLink)`
   text-align: center;
   &.active {
     color: #8fce00;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.5s;
   }
   &:hover {
     color: #b6d7a8;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.5s;
   }
 `;
 export const NavList = styled.nav`
@@ -27,7 +31,7 @@ export const NavList = styled.nav`
   top: 0;
   width: 100%;
   display: flex;
-  min-height: 50px;
+  height: 55px;
   padding: 10px 20px;
   align-items: center;
   z-index: 2;
